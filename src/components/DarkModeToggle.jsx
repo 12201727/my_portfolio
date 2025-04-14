@@ -1,28 +1,51 @@
-import React, { useEffect, useState } from 'react';
-import { Moon, Sun } from 'lucide-react'; // You can install lucide-react or use emoji/icons
+import React, { useState, useEffect } from 'react';
 
 const DarkModeToggle = () => {
-  const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem('theme') === 'dark';
-  });
+  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    if (darkMode) {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      document.documentElement.classList.add('dark');
+      setDarkMode(true);
+    }
+  }, []);
+
+  const playSound = () => {
+    try {
+      const audio = new Audio('/switch.mp3');
+      audio.play().catch((err) => console.log('Audio play error:', err));
+    } catch (err) {
+      console.log('Audio error:', err);
+    }
+  };
+
+  const toggleDarkMode = () => {
+    const newMode = !darkMode;
+    setDarkMode(newMode);
+    playSound();
+
+    if (newMode) {
       document.documentElement.classList.add('dark');
       localStorage.setItem('theme', 'dark');
     } else {
       document.documentElement.classList.remove('dark');
       localStorage.setItem('theme', 'light');
     }
-  }, [darkMode]);
+  };
 
   return (
     <button
-      onClick={() => setDarkMode(!darkMode)}
-      className="ml-4 p-2 rounded-full border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700 transition"
-      title="Toggle dark mode"
+      onClick={toggleDarkMode}
+      className="ml-auto flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 dark:border-gray-600 transition-all duration-300 hover:scale-110 hover:shadow-md"
     >
-      {darkMode ? <Sun className="w-5 h-5 text-yellow-400" /> : <Moon className="w-5 h-5 text-gray-700" />}
+      <span
+        className={`transition-all duration-500 ease-in-out transform ${
+          darkMode ? 'rotate-180 scale-100 text-yellow-400' : 'rotate-0 scale-100 text-gray-800'
+        }`}
+      >
+        {darkMode ? '🌞' : '🌙'}
+      </span>
     </button>
   );
 };
