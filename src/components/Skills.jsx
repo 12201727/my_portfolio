@@ -4,19 +4,19 @@ import React from 'react';
 const skillCategories = [
   {
     category: 'Programming Languages',
-    skills: ['Java', 'JavaScript', 'Python'],
+    skills: ['C++','Java','HTML','python','CSS','DSA'],
   },
   {
-    category: 'Frontend',
-    skills: ['React', 'Tailwind CSS', 'HTML', 'CSS'],
+    category: 'Frameworks',
+    skills: ['HTML & CSS', 'Scikit-learn', 'PyTorch','Tensorflow'],
   },
   {
-    category: 'Backend & Tools',
-    skills: ['Node.js', 'Express', 'MongoDB', 'Git'],
+    category: 'Tools & Platforms',
+    skills: ['MYSQL', 'Google Colab'],
   },
   {
-    category: 'Cloud & DevOps',
-    skills: ['AWS', 'Docker', 'CI/CD'],
+    category: 'Soft Skills',
+    skills: ['Problem Solving', 'Multi-Tasking', 'Team player'],
   },
 ];
 

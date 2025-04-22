@@ -11,12 +11,12 @@ const About = () => {
         {/* Profile Photo */}
         <img
           src="/myimage.jpg"
-          alt="Runeet Raj"
+          alt="MD Osama"
           className="w-48 h-48 mx-auto mb-4 rounded-full object-cover shadow-lg"
         />
-        <h2 className="text-4xl font-bold mb-4 text-gray-800 dark:text-white">Runeet Raj</h2>
+        <h2 className="text-4xl font-bold mb-4 text-gray-800 dark:text-white">MD OSAMA</h2>
         <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-          I am a 3rd-year student at Lovely Professional University, pursuing B.Tech with a specialization in Cloud Computing. Passionate about building scalable cloud-native applications.
+        Hi, I’m MD Osama, a B.Tech Computer Science student at Lovely Professional University, specializing in Machine Learning, Artificial Intelligence. I focus on building intelligent and scalable applications and have a solid foundation in developing and deploying ML models. I am committed to continuously improving my skills in emerging technologies.
         </p>
       </div>
     </section>

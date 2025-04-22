@@ -6,29 +6,24 @@ const certifications = [
     title: 'NPTEL Certificate for Cloud Computing',
   },
   {
-    title: 'Managing Cloud Solutions',
-    body: 'AWS',
+    title: 'complete interview for GFG',
+    body: 'GFG',
     completed: '4th Sem, 2024',
     validTill: '2027',
   },
   {
-    title: 'Cloud Architecture and Implementation-1',
-    body: 'AWS',
+    title: 'Mastering DSA',
+    body: 'UDEMY',
     completed: '4th Sem, 2024',
     validTill: '2027',
   },
   {
-    title: 'Cloud Architecture and Implementation-2',
-    body: 'AWS',
+    title: 'cybersecurity by udemy',
+    body: 'UDEMY',
     completed: '5th Sem, 2024',
     validTill: '2027',
   },
-  {
-    title: 'Cloud Microservices',
-    body: 'AWS',
-    completed: '5th Sem, 2024',
-    validTill: '2027',
-  },
+  
 ];
 
 const Certifications = () => {

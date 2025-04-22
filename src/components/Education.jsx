@@ -5,34 +5,32 @@ const educationData = [
   {
     institution: 'Lovely Professional University, Jalandhar, Punjab',
     degree: 'Bachelor of Technology in Computer Science and Engineering',
-    score: 'CGPA: 5.2',
+    score: 'CGPA: 6.2',
     year: 'Graduation Year: 2026',
     subtitle: 'Relevant Coursework',
     details: [
       'Data Structures and Algorithms',
       'Operating Systems',
       'Database Management Systems',
-      'Cloud Computing',
       'Computer Networks',
-      'DevOps',
-      'Containerization and Orchestration',
     ],
   },
   {
-    institution: 'NEZAMIA Public High School, Patna, Bihar',
+    institution: 'Smastipur college samastipur,Bihar',
     degree: 'Higher Secondary Certificate',
-    score: 'Percentage: 64.9%',
-    year: 'Year of Completion: 2020',
+    score: 'Percentage: 72%',
+    year: 'Year of Completion: 2019',
     subtitle: 'Key Subjects',
     details: ['Physics', 'Chemistry', 'Mathematics', 'Computer Science'],
   },
   {
-    institution: 'KPS Memorial High School, Patna, Bihar',
+    institution: 'D.M.P Holy Mission School, Bihar',
     degree: 'Secondary School Certificate',
-    score: 'Percentage: 54.5%',
-    year: 'Year of Completion: 2018',
+    score: 'Percentage: 93%',
+    year: 'Year of Completion: 2017',
     subtitle: 'Achievements',
-    details: ['1st position in intra-school Spelling Competition'],
+    details: [], // <-- Add this line
+
   },
 ];
 

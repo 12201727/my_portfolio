@@ -11,14 +11,14 @@ const Contact = () => {
         <h2 className="text-4xl font-bold mb-4 text-gray-800 dark:text-white">Contact</h2> {/* UPDATED */}
         <p className="text-lg text-gray-700 dark:text-gray-300"> {/* UPDATED */}
           Feel free to reach out to me via email at{" "}
-          <a href="mailto:rauneet234@gmail.com" className="text-blue-600 dark:text-blue-400 hover:underline"> {/* UPDATED */}
-            rauneet234@gmail.com
+          <a href="mailto:mdosamaspj20010@gmail.com" className="text-blue-600 dark:text-blue-400 hover:underline"> {/* UPDATED */}
+            mdosamaspj20010@gmail.com
           </a>.
         </p>
         <p className="text-lg text-gray-700 dark:text-gray-300"> {/* UPDATED */}
           Connect with me on{" "}
           <a
-            href="https://linkedin.com/in/rauneet-raj"
+            href="https://linkedin.com/in/md-osama-52704623"
             className="text-blue-600 dark:text-blue-400 hover:underline" // UPDATED
             target="_blank"
             rel="noopener noreferrer"
@@ -29,7 +29,7 @@ const Contact = () => {
         <p className="text-lg text-gray-700 dark:text-gray-300"> {/* UPDATED */}
           Check out my projects on{" "}
           <a
-            href="https://github.com/rauneet234"
+            href="https://github.com/12201727"
             className="text-blue-600 dark:text-blue-400 hover:underline" // UPDATED
             target="_blank"
             rel="noopener noreferrer"
@@ -37,7 +37,7 @@ const Contact = () => {
             GitHub
           </a>.
         </p>
-        <p className="text-lg text-gray-700 dark:text-gray-300">Contact Number: 9508566234</p> {/* UPDATED */}
+        <p className="text-lg text-gray-700 dark:text-gray-300">Contact Number: 9801844423</p> {/* UPDATED */}
       </div>
     </section>
   );

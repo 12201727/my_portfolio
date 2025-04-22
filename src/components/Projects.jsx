@@ -3,14 +3,14 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'Serverless Web Application',
+    title: 'Text Summarization',
     description:
-      'Developed a serverless web application on AWS using S3, API Gateway, Lambda, and DynamoDB for efficient data storage and request processing.',
+      'Develop an ML-based text summarization model integrating PCA, RNNs, and transformer models for enhanced summarization accuracy by analysing real-time updates.  development. Implemented OpenNMT/Fairseq frameworks to enhance translation accuracy. Improved recommendation accuracy, delivering more relevant news to users.',
   },
   {
-    title: 'AI Content Verifier dApp',
+    title: 'Exploring Neural Machine Translation',
     description:
-      'Created a decentralized application that hashes and stores AI-generated content on the blockchain to verify its integrity, integrating Azure Cosmos DB for efficient metadata storage.',
+      'This project delves into the field of Neural Machine Translation (NMT) — an advanced deep learning technique used for translating text from one language to another. Unlike traditional rule-based or phrase-based translation systems, NMT models learn to directly map input sequences (sentences) to output sequences using neural networks, significantly improving translation quality and fluency.',
   },
 ];
 
